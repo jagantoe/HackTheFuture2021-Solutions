@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-A1-Easy", "HackTheFuture2021-A1-Easy\HackTheFuture2021-A1-Easy.csproj", "{9D561F3F-1900-4721-892F-CF4DCC287F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-A2-Medium", "HackTheFuture2021-A2-Medium\HackTheFuture2021-A2-Medium.csproj", "{7DAA71C2-6C69-4AFA-94F1-4C43A0D7018B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-A3-Hard", "HackTheFuture2021-A3-Hard\HackTheFuture2021-A3-Hard.csproj", "{35C0F169-01C1-4A90-ABD9-6BB0263176F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-B1-Easy", "HackTheFuture2021-B1-Easy\HackTheFuture2021-B1-Easy.csproj", "{802EB400-A9D5-4492-B79F-119C07C232BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-B2-Medium", "HackTheFuture2021-B2-Medium\HackTheFuture2021-B2-Medium.csproj", "{E3E26F9F-3CAC-4BF7-BE60-1CD3E823B3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackTheFuture2021-B3-Hard", "HackTheFuture2021-B3-Hard\HackTheFuture2021-B3-Hard.csproj", "{ECC8E34F-40A9-4B15-BD30-97899BB9D00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D561F3F-1900-4721-892F-CF4DCC287F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D561F3F-1900-4721-892F-CF4DCC287F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D561F3F-1900-4721-892F-CF4DCC287F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D561F3F-1900-4721-892F-CF4DCC287F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAA71C2-6C69-4AFA-94F1-4C43A0D7018B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAA71C2-6C69-4AFA-94F1-4C43A0D7018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAA71C2-6C69-4AFA-94F1-4C43A0D7018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAA71C2-6C69-4AFA-94F1-4C43A0D7018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C0F169-01C1-4A90-ABD9-6BB0263176F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C0F169-01C1-4A90-ABD9-6BB0263176F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C0F169-01C1-4A90-ABD9-6BB0263176F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C0F169-01C1-4A90-ABD9-6BB0263176F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802EB400-A9D5-4492-B79F-119C07C232BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802EB400-A9D5-4492-B79F-119C07C232BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802EB400-A9D5-4492-B79F-119C07C232BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802EB400-A9D5-4492-B79F-119C07C232BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E26F9F-3CAC-4BF7-BE60-1CD3E823B3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E26F9F-3CAC-4BF7-BE60-1CD3E823B3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E26F9F-3CAC-4BF7-BE60-1CD3E823B3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E26F9F-3CAC-4BF7-BE60-1CD3E823B3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC8E34F-40A9-4B15-BD30-97899BB9D00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC8E34F-40A9-4B15-BD30-97899BB9D00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC8E34F-40A9-4B15-BD30-97899BB9D00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC8E34F-40A9-4B15-BD30-97899BB9D00D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D791AD72-B2C2-4D14-89A8-AB0D9879FC18}
+	EndGlobalSection
+EndGlobal

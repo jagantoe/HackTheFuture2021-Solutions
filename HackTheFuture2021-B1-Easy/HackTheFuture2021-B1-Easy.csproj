@@ -5,7 +5,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>HackTheFuture2021_B1_Easy</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

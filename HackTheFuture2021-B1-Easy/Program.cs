@@ -51,7 +51,7 @@ DateTime ConvertToDate(string mixedDate)
 }
 
 /// We nemen het verschil van de twee datums en zetten dat om naar de absolute waarde
-var difference = Math.Abs((firstDate - secondDate).TotalMilliseconds);
+var difference = Math.Abs((firstDate - secondDate).TotalSeconds);
 
 Console.WriteLine($"Answer: {difference}");
 

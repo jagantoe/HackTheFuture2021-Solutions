@@ -80,7 +80,7 @@ List<int> GetBestPath(int destination)
     if (path.Last() != adjustedDestination)
     {
         /// We berekenen hoe ver we voorbij onze bestemming zijn gegaan
-        var overshoot = adjustedDestination - path.Last();
+        var overshoot = Math.Abs(adjustedDestination - path.Last());
         /// We gaan opnieuw een path maken maar nu geven we de overshoot mee
         path = CreatePath(overshoot);
         

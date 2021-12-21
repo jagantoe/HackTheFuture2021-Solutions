@@ -20,7 +20,7 @@ using System.Text.Json;
 /// Je krijgt een Sample API endpoint (/api/path/1/medium/Sample) om je algoritme op toe te passen.
 /// Als je algoritme werkt, kan je overgaan naar de Puzzle API endpoint (/api/path/1/medium/Puzzle) om het antwoord door te sturen.
 /// Let op! Bij het indienen van je antwoord bij de Puzzle API endpoint wordt je aantal pogingen opgeteld.
-/// De opdrachtwordt niet gereset na een foutievepoging.
+/// De opdracht wordt niet gereset na een foutieve poging.
 
 var puzzle = JsonSerializer.Deserialize<Puzzle>(Data.Puzzle, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
 
@@ -28,15 +28,15 @@ Console.WriteLine($"Expected destination: {puzzle.Destination}");
 
 /// De start is altijd 0 dus ik ga alleen naar de destination kijken, als de start toch anders zou zijn dan werk je simpelweg met een offset
 
-/// Deze method geeft altijd een weg naar de bestemming het duurt wel zeer lang
+/// Deze method geeft altijd een weg naar de bestemming, het duurt wel zeer lang
 var guaranteedPath = GetGuaranteedPath(puzzle.Destination);
 /// Deze methode geeft de beste/kortste path
-/// Disclaimer: misschien bestaat er nog een betere manier dit is beste dat ik heb kunnen bedenken
+/// Disclaimer: misschien bestaat er nog een betere manier, dit is beste dat ik heb kunnen bedenken
 var bestPath = GetBestPath(puzzle.Destination);
 
 List<int> GetGuaranteedPath(int destination)
 {
-    /// We nemen de absoluute waarde van de bestemming zodat we ons niet druk moeten maken over richting
+    /// We nemen de absolute waarde van de bestemming zodat we ons niet druk moeten maken over richting
     var adjustedDestination = Math.Abs(destination);
     var path = new List<int>();
     /// We maken gebruik van de ternary operator om een predicate te kiezen
@@ -92,6 +92,8 @@ List<int> GetBestPath(int destination)
     }
     return path;
 
+    /// De eerste keer dat we deze methode oproepen geven we geen overshoot mee
+    /// De overshoot gebruiken we straks om te zeggen hoe ver we over onze bestemming zijn gegaan
     List<int> CreatePath(int overshoot = 0)
     {
         var path = new List<int>();

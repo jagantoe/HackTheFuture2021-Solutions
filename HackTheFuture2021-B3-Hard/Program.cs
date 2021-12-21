@@ -48,7 +48,7 @@ var shiftedTiles = originalTiles.Select(x => x with { }).ToList();
 /// We setten de neighbors van alle tiles
 SetNeighbors(shiftedTiles);
 
-/// Om de gevonde antwoorde bij te houden gebruiken we een tuple, zo kunnen we meer informatie bijhouden zonder een class te maken
+/// Om de gevonde antwoorden bij te houden gebruiken we een tuple, zo kunnen we meer informatie bijhouden zonder een class te maken
 /// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples
 var foundWords = new List<(string word, int shift, List<Tile> tiles)>();
 
